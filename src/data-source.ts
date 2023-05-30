@@ -2,12 +2,12 @@ import { DataSource } from "typeorm";
 
 //https://orkhan.gitbook.io/typeorm/docs/data-source-options
 const AppDataSource = new DataSource({
-    database: 'bdaula.db', // se for SQLite, então use bdaula.db
-    type: "sqlite", // se for SQLite, então use sqlite
-    //host: 'localhost', // não use esta propriedade se for sqlite
-    //port: 5432, // não use esta propriedade se for sqlite
-    //username: 'postgres', // não use esta propriedade se for sqlite
-    //password:'123', // não use esta propriedade se for sqlite
+    database: 'oqqyhnui', // se for SQLite, então use bdaula.db
+    type: "postgres", // se for SQLite, então use sqlite
+    host: 'silly.db.elephantsql.com', // não use esta propriedade se for sqlite
+    port: 5432, // não use esta propriedade se for sqlite
+    username: 'oqqyhnui', // não use esta propriedade se for sqlite
+    password:'e61kk8075kPzzYwaNfTtFaXFW-ZQ6Nrs', // não use esta propriedade se for sqlite
     // true indica que o schema do BD será criado a cada vez que a aplicação inicializar
     // deixe false ao usar migrations
     synchronize: false, 
